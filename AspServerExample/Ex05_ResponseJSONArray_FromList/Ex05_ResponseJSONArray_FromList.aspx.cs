@@ -6,7 +6,7 @@ using System.Web.Script.Serialization;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class Ex05_ResponseJSONArray_FromList_Ex05_ResponseJSONArray_FromList : System.Web.UI.Page
+public partial class Ex05_ResponseJSONArray_FromList : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {

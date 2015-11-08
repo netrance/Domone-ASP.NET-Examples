@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Ex05_ResponseJSONArray_FromList.aspx.cs" Inherits="Ex05_ResponseJSONArray_FromList_Ex05_ResponseJSONArray_FromList" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Ex05_ResponseJSONArray_FromList.aspx.cs" Inherits="Ex05_ResponseJSONArray_FromList" %>
 
 <!DOCTYPE html>
 
