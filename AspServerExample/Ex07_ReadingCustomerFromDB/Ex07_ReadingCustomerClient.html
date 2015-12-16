@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- Set metadata. -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta charset="utf-8" />
+
+    <!-- Set title. -->
+    <title>Ex07_ReadingCustomerFromDB</title>
+
+    <!-- References -->
+    <link href="Ex07_ReadingCustomerClient.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- This div will be hided after loading customers is completed. -->
+    <div id="div_waiting">Please wait a minute...</div>
+    
+    <!-- Customer Table -->
+    <div id="div_result">
+        Result of finding the customer which ID is 'first_customer':
+        <p/>
+        <table id="table_customer">
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Password</td>
+                    <td>Name</td>
+                    <td>Mobile</td>
+                    <td>Email</td>
+                </tr>
+            </thead>
+            <tbody id="tbody_customer">
+                <!-- Rows will be added after customer data are received from the server. -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- References -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="Ex07_ReadingCustomerClient.js"></script>
+</body>
+</html>
