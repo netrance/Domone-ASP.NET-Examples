@@ -26,7 +26,7 @@ public partial class Ex08_InsertingCustomer : System.Web.UI.Page
         SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["DB_HomeShopping"].ConnectionString);
 
         // Write the query to find the customer by the ID.
-        string sql = "INSERT INTO dbo.Customer ("
+        string sql = "INSERT INTO dbo.HS_Customer ("
                 + "customer_id, customer_pw, customer_name, customer_mobile, customer_email) VALUES ("
                 + "@customerId, @customerPw, @customerName, @customerMobile, @customerEmail)";
         SqlCommand cmd = new SqlCommand(sql, con);

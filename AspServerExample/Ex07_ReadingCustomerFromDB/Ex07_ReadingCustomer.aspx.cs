@@ -30,7 +30,7 @@ public partial class Ex07_ReadingCustomer : System.Web.UI.Page
         SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["DB_HomeShopping"].ConnectionString);
 
         // Write the query to find the customer by the ID.
-        string sql = "SELECT * FROM dbo.Customer WHERE customer_id = @customerId";
+        string sql = "SELECT * FROM dbo.HS_Customer WHERE customer_id = @customerId";
         SqlCommand cmd = new SqlCommand(sql, con);
         cmd.Parameters.AddWithValue("@customerId", customerId);
 

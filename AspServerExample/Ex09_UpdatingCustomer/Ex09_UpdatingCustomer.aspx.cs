@@ -26,7 +26,7 @@ public partial class Ex09_UpdatingCustomer : System.Web.UI.Page
         SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["DB_HomeShopping"].ConnectionString);
 
         // Write the query to update the customer by the ID.
-        string sql = "UPDATE dbo.Customer SET "
+        string sql = "UPDATE dbo.HS_Customer SET "
                 + "customer_pw = @customerPw, "
                 + "customer_name = @customerName, "
                 + "customer_mobile = @customerMobile, "

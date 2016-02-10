@@ -22,7 +22,7 @@ public partial class Ex10_DeletingCustomer : System.Web.UI.Page
         SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["DB_HomeShopping"].ConnectionString);
 
         // Write the query to update the customer by the ID.
-        string sql = "DELETE FROM dbo.Customer WHERE customer_id = @customerId";
+        string sql = "DELETE FROM dbo.HS_Customer WHERE customer_id = @customerId";
         SqlCommand cmd = new SqlCommand(sql, con);
         cmd.Parameters.AddWithValue("@customerId", customerId);
 
