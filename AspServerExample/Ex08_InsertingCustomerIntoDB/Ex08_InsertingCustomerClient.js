@@ -26,6 +26,7 @@ function createCustomer() {
             }
             else {
                 alert('Cannot create your account.');
+                //alert(JSON.stringify(data));
             }
         },
         error: function (request, status, error) {
