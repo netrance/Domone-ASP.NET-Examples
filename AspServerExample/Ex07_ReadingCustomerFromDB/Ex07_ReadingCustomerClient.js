@@ -16,7 +16,7 @@
             $('#div_waiting').hide();
         },
         error: function (request, status, error) {
-            $('#div_waiting').html('Cannot load customer table. (Error code: ' + request.status + ')');
+            $('#div_waiting').html('Cannot load customer table. (Error code: ' + request.status + ')<p/>' + request.responseText);
         }
     });
 });
